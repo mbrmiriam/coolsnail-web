@@ -1,0 +1,13 @@
+# Borradores para publicar (los publica Miriam)
+
+## 2026-10-12 · Respuesta para hilos de Reddit tipo "how do I block Reels/Shorts but keep Instagram?" (r/nosurf, r/digitalminimalism, r/androidapps)
+
+> Revisa las reglas del subreddit sobre autopromoción y di siempre que la app es tuya.
+
+I make an Android app for exactly this, so take it with that bias: Cool Snail (free, no account). It doesn't block Instagram or YouTube, it pulls you out of Reels, Shorts and TikTok's feed about a second after they open. DMs, stories, long videos and search keep working, and a Reel a friend sends you in a chat still plays. If you'd rather block whole apps by schedule or location, AppBlock or Android's Digital Wellbeing are better fits. I wrote an honest comparison here: https://coolsnail.app/blog/best-apps-to-block-social-media-android/
+
+## Pitch corto para prensa tech (Android Authority, Xataka Android, Digital Trends ES)
+
+Asunto: App gratuita para Android que quita los Reels y los Shorts sin borrar Instagram ni YouTube
+
+Hola, soy Miriam, desarrolladora independiente en España. Cool Snail es una app gratuita para Android que te saca de los Reels, los Shorts, TikTok y la pestaña de vídeo de X, mientras los mensajes y los vídeos que te mandan amigos siguen funcionando. Corta también el scroll infinito de Reddit y X en páginas. Sin cuenta, y la actividad se queda en el móvil. Web y vídeo de 46 s: https://coolsnail.app/ · https://www.youtube.com/watch?v=fnMD4n1qxBc

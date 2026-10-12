@@ -89,6 +89,51 @@ dict(
  ],
  cta="Keep Instagram, lose the Reels hole. Cool Snail is free on Android.",
 ),
+dict(
+ slug="best-apps-to-block-social-media-android", alt_slug="mejores-apps-bloquear-redes-sociales-android",
+ title="Best apps to block social media addiction on Android (2026)",
+ desc="Android's Digital Wellbeing, whole-app blockers like AppBlock, and Cool Snail compared honestly: what each one blocks, what it leaves working, and when to pick which.",
+ h1="Best apps to block social media addiction on Android (2026)",
+ answer="It depends on what you want gone. To pause whole apps on a timer, Android's own Digital Wellbeing is free and already on your phone. To block whole apps by schedule, location or Wi-Fi, a blocker like AppBlock does that. To keep Instagram, YouTube and TikTok but lose the endless video feeds, <a href=\"/\">Cool Snail</a> (free) takes you out of Reels, Shorts and TikTok and cuts Reddit and X into pages, while messages and search keep working.",
+ body="""    <h2>Three ways to fight the scroll</h2>
+    <p>Most tools fall into one of three groups. Some limit how long a whole app can be open. Some block whole apps and websites under rules you set. A few go after the parts of an app built to keep you there, like the Reels tab or an endless feed, and leave the rest alone. Which one helps depends on whether the app is the problem or only one part of it.</p>
+
+    <h2>The comparison, honestly</h2>
+    <table class="compare">
+      <thead><tr><th>Option</th><th>What it does</th><th>What it doesn't</th></tr></thead>
+      <tbody>
+        <tr><td>Digital Wellbeing (built into Android)</td><td>App timers that pause an app until midnight; Focus mode pauses chosen apps, on a schedule if you like</td><td>Works on the whole app: when Instagram is paused, so are your DMs</td></tr>
+        <tr><td>AppBlock and similar whole-app blockers</td><td>Block apps and websites by time, daily usage, location, launch count or Wi-Fi; a strict mode makes blocks harder to undo</td><td>Built around blocking whole apps and sites, not one section inside an app</td></tr>
+        <tr><td>Cool Snail</td><td>Takes you out of Reels, Shorts, TikTok and the X video tab; daily and per-app limits with open hours; Reddit and X cut into pages of 20 posts; a bubble with your time</td><td>Android only; doesn't block websites in general or whole apps by location</td></tr>
+      </tbody>
+    </table>
+    <p>Sources: Google's help page on <a href="https://support.google.com/android/answer/9346420" rel="noopener">Digital Wellbeing</a> and AppBlock's own <a href="https://appblock.app/android/" rel="noopener">Android page</a> and <a href="https://appblock.app/help/android/how-to-use/" rel="noopener">help</a>, checked on 12 October 2026. Apps change, so check the latest version before you choose.</p>
+
+    <h2>Why Cool Snail</h2>
+    <ul>
+      <li><strong>Four tools, each with its own switch.</strong> Block short videos, control your time (one daily limit for all social apps, a limit per app, open hours), break up infinite scrolling on Reddit and X, and a bubble over the feed with today's time and posts seen.</li>
+      <li><strong>Friends get through.</strong> A Reel, Short or TikTok opened straight from a chat on WhatsApp, Telegram, Messenger, Signal or Instagram's DMs plays, with a "Sent by a friend. Go ahead." note.</li>
+      <li><strong>Free, no account.</strong> No trial, no sign-up, no card. PRO is optional: it fixes your rules for 30 days so you can't loosen them, and unlocks full statistics.</li>
+      <li><strong>Your activity stays on your phone.</strong> Time, posts seen and statistics are processed and stored only on the device and deleted when you uninstall. The details are in the <a href="/privacy/">privacy policy</a>.</li>
+    </ul>
+
+    <h2>When another option is better</h2>
+    <ul>
+      <li><strong>You want a whole app gone during certain hours or places,</strong> like social media off at work or at the gym: a whole-app blocker with schedules and location rules, such as AppBlock, is made for that.</li>
+      <li><strong>You only need a gentle timer</strong> and don't want to install anything: Digital Wellbeing's app timers and Focus mode are already on most Android phones.</li>
+      <li><strong>You use an iPhone:</strong> Cool Snail is Android only. iPhone has Screen Time built in, and AppBlock also has an iPhone version.</li>
+      <li><strong>You want to block websites in general:</strong> Cool Snail only acts on short videos opened in Chrome (TikTok links, Reels, Shorts, Facebook Reels), not on other sites.</li>
+    </ul>
+
+    <h2>Limits you should know</h2>
+    <p>Cool Snail recognises Reels, Shorts and TikTok by how those apps are built, so a redesign can break detection until Cool Snail is updated. On Xiaomi, Redmi, POCO and Samsung phones, set its battery use to Unrestricted so Android doesn't stop it.</p>""",
+ faq=[
+  ("Is Digital Wellbeing enough to stop doomscrolling?", "For some people, yes. Its app timers pause a whole app until midnight and Focus mode pauses chosen apps. It can't tell Reels from your DMs, so a pause stops both."),
+  ("Can I block Reels and Shorts but keep Instagram and YouTube?", "Yes, with Cool Snail on Android. It takes you out of Reels, Shorts and TikTok's video feed about a second after they open; DMs, stories, long videos and search keep working."),
+  ("Do I need to pay?", "Not for Cool Snail: it's free forever with no account. PRO is an optional subscription that fixes your rules for 30 days and unlocks full statistics. Digital Wellbeing is free; AppBlock has a free version and a Premium plan."),
+ ],
+ cta="Keep your apps, lose the endless feeds. Cool Snail is free on Android.",
+),
 ]
 
 ES = [
@@ -179,5 +224,50 @@ dict(
   ("¿Y los Reels que me mandan mis amigos?", "Se ven si los abres directamente desde un chat de WhatsApp, Telegram, Messenger, Signal o los mensajes de Instagram. Pasar a un reel de otra persona acaba el pase."),
  ],
  cta="Quédate con Instagram y suelta el pozo de los Reels. Cool Snail es gratis en Android.",
+),
+dict(
+ slug="mejores-apps-bloquear-redes-sociales-android", alt_slug="best-apps-to-block-social-media-android",
+ title="Mejores apps para bloquear la adicción a las redes sociales en Android (2026)",
+ desc="Bienestar digital de Android, los bloqueadores de apps enteras como AppBlock y Cool Snail, comparados con honestidad: qué bloquea cada uno, qué deja funcionar y cuándo elegir cuál.",
+ h1="Mejores apps para bloquear la adicción a las redes sociales en Android (2026)",
+ answer="Depende de lo que quieras quitar. Para pausar apps enteras con un temporizador, Bienestar digital de Android es gratis y ya está en tu móvil. Para bloquear apps enteras por horario, ubicación o wifi, un bloqueador como AppBlock hace eso. Para quedarte con Instagram, YouTube y TikTok pero sin los vídeos infinitos, <a href=\"/es/\">Cool Snail</a> (gratis) te saca de los Reels, los Shorts y TikTok y corta Reddit y X en páginas, mientras los mensajes y la búsqueda siguen funcionando.",
+ body="""    <h2>Tres maneras de pelear contra el scroll</h2>
+    <p>Casi todas las herramientas caen en uno de tres grupos. Unas limitan cuánto tiempo puede estar abierta una app entera. Otras bloquean apps y webs enteras con las reglas que pongas. Unas pocas van a por las partes de la app hechas para que no te vayas, como la pestaña de Reels o un feed sin fin, y dejan el resto en paz. Cuál te ayuda depende de si el problema es la app o sólo una parte de ella.</p>
+
+    <h2>La comparativa, con honestidad</h2>
+    <table class="compare">
+      <thead><tr><th>Opción</th><th>Qué hace</th><th>Qué no hace</th></tr></thead>
+      <tbody>
+        <tr><td>Bienestar digital (viene con Android)</td><td>Temporizadores que pausan una app hasta medianoche; el modo Concentración pausa las apps que elijas, con horario si quieres</td><td>Actúa sobre la app entera: si Instagram está en pausa, tus mensajes también</td></tr>
+        <tr><td>AppBlock y bloqueadores de apps enteras parecidos</td><td>Bloquean apps y webs por horario, uso diario, ubicación, número de aperturas o wifi; un modo estricto hace más difícil quitar el bloqueo</td><td>Están pensados para bloquear apps y webs enteras, no una sección dentro de una app</td></tr>
+        <tr><td>Cool Snail</td><td>Te saca de los Reels, los Shorts, TikTok y la pestaña de vídeo de X; límite diario y por app con horario; Reddit y X cortados en páginas de 20 posts; una burbuja con tu tiempo</td><td>Sólo Android; no bloquea webs en general ni apps enteras por ubicación</td></tr>
+      </tbody>
+    </table>
+    <p>Fuentes: la ayuda de Google sobre <a href="https://support.google.com/android/answer/9346420?hl=es" rel="noopener">Bienestar digital</a> y la <a href="https://appblock.app/android/" rel="noopener">página de Android</a> y la <a href="https://appblock.app/help/android/how-to-use/" rel="noopener">ayuda</a> de AppBlock, consultadas el 12 de octubre de 2026. Las apps cambian, así que mira la última versión antes de elegir.</p>
+
+    <h2>Por qué Cool Snail</h2>
+    <ul>
+      <li><strong>Cuatro herramientas, cada una con su interruptor.</strong> Bloquear vídeos cortos, controlar tu tiempo (un límite diario para todas las redes, un límite por app y un horario), cortar el scroll infinito de Reddit y X, y una burbuja encima del feed con el tiempo de hoy y los posts vistos.</li>
+      <li><strong>Los amigos sí pasan.</strong> Un Reel, un Short o un TikTok que abres directamente desde un chat de WhatsApp, Telegram, Messenger, Signal o los mensajes de Instagram se ve, con un aviso de "Sent by a friend. Go ahead." (te lo ha mandado un amigo, adelante).</li>
+      <li><strong>Gratis y sin cuenta.</strong> Sin prueba, sin registro y sin tarjeta. PRO es opcional: fija tus reglas 30 días para que no puedas aflojarlas y desbloquea todas las estadísticas.</li>
+      <li><strong>Tu actividad se queda en tu móvil.</strong> El tiempo, los posts vistos y las estadísticas se procesan y guardan sólo en el dispositivo y se borran al desinstalar. Los detalles están en la <a href="/privacy/">política de privacidad</a>.</li>
+    </ul>
+
+    <h2>Cuándo es mejor otra opción</h2>
+    <ul>
+      <li><strong>Quieres quitar una app entera a ciertas horas o en ciertos sitios,</strong> como las redes apagadas en el trabajo o en el gimnasio: un bloqueador de apps enteras con horarios y ubicación, como AppBlock, está hecho para eso.</li>
+      <li><strong>Sólo necesitas un temporizador suave</strong> y no quieres instalar nada: los temporizadores y el modo Concentración de Bienestar digital ya vienen en casi todos los Android.</li>
+      <li><strong>Usas iPhone:</strong> Cool Snail es sólo para Android. El iPhone trae Tiempo de uso, y AppBlock también tiene versión para iPhone.</li>
+      <li><strong>Quieres bloquear webs en general:</strong> Cool Snail sólo actúa sobre los vídeos cortos abiertos en Chrome (enlaces de TikTok, Reels, Shorts y Reels de Facebook), no sobre otras webs.</li>
+    </ul>
+
+    <h2>Límites que conviene saber</h2>
+    <p>Cool Snail reconoce los Reels, los Shorts y TikTok por cómo están hechas esas apps, así que un rediseño puede romper la detección hasta que Cool Snail se actualice. En móviles Xiaomi, Redmi, POCO y Samsung, pon su uso de batería en Sin restricciones para que Android no la pare. La app está en inglés de momento.</p>""",
+ faq=[
+  ("¿Basta con Bienestar digital para dejar el doomscrolling?", "A algunas personas les basta. Sus temporizadores pausan una app entera hasta medianoche y el modo Concentración pausa las apps que elijas. No distingue los Reels de tus mensajes, así que una pausa para las dos cosas."),
+  ("¿Puedo bloquear los Reels y los Shorts y quedarme con Instagram y YouTube?", "Sí, con Cool Snail en Android. Te saca de los Reels, los Shorts y el feed de vídeos de TikTok más o menos un segundo después de abrirlos; los mensajes, las historias, los vídeos largos y la búsqueda siguen funcionando."),
+  ("¿Tengo que pagar?", "Por Cool Snail, no: es gratis para siempre y sin cuenta. PRO es una suscripción opcional que fija tus reglas 30 días y desbloquea todas las estadísticas. Bienestar digital es gratis; AppBlock tiene una versión gratis y un plan Premium."),
+ ],
+ cta="Quédate con tus apps y suelta los feeds sin fin. Cool Snail es gratis en Android.",
 ),
 ]
