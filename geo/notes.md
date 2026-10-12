@@ -35,3 +35,10 @@ Miriam fija un tope de **1,50 € al mes**. La primera medición, con GPT-6.1 So
 - Modelos baratos por defecto: `openai/gpt-6-luna`, `google/gemini-3.5-flash-lite` y `anthropic/claude-haiku-5.5` (todos `:online`), con respuestas de 1200 tokens como mucho.
 - `geo_check.py` mide como mucho una vez cada 7 días, apunta el coste real de cada consulta y no mide si el mes llega a 1,50 $.
 - Ojo: al cambiar de modelos, la línea base del 12 oct no es del todo comparable con las siguientes.
+
+## 2026-10-12 · Cambio de criterio (Miriam)
+
+- **Vuelven los modelos buenos** (GPT-6.1 Sol, Gemini 3.8 Flash, Sonnet 5.5): los baratos no reflejan lo que ve la gente. Para caber en 1,50 €/mes se mide **cada 14 días** (~0,56 $ por medición).
+- **Objetivo nuevo:** salir no sólo cuando alguien pide una app, sino cuando alguien cuenta que pasa demasiado tiempo en redes ("puedes probar una app como Cool Snail"). Las preguntas pasan a ser 2 de búsqueda de app y 2 conversacionales (EN y ES). Se quitan "app to stop doomscrolling…" y "alternatives to AppBlock…".
+- `results.jsonl` guarda ahora también qué apps conocidas salen en cada respuesta (`apps`).
+- **Idea de contenido para ese objetivo:** las respuestas conversacionales suelen dar consejos generales (desactivar notificaciones, temporizadores, poner el móvil lejos) y, como mucho, una app. Para entrar ahí hace falta una guía de consejos tipo "How to spend less time on social media without quitting" / "Cómo pasar menos tiempo en redes sin dejarlas", útil por sí sola, en la que Cool Snail sea uno de los pasos y no todo el artículo.
