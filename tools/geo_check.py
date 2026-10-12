@@ -43,6 +43,7 @@ def main():
             engine = ENGINES.get(model.split("/")[0], model.split("/")[0])
             for query in QUERIES:
                 row = {"date": date, "engine": engine, "model": model, "query": query}
+                print(f"Preguntando a {engine}: {query} …", flush=True)
                 try:
                     answer = ask(key, model, query)
                     row.update(mentioned=bool(MENTION.search(answer)), answer=answer)
