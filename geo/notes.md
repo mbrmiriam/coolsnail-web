@@ -28,3 +28,10 @@ Lectura: en vídeos cortos, la competencia directa en las respuestas es **NoScro
 
 - **`geo/` y `tools/` se publican en la web** (hay `.nojekyll`, así que GitHub Pages sirve todo el repo): coolsnail.app/geo/notes.md y /geo/outreach.md son públicos. A Miriam le da igual por ahora (12 oct 2026); más adelante, moverlos a un sitio que no se publique.
 - `build_blog.py` usa una sola `DATE` para todos los posts: poner una fecha por post antes del próximo.
+
+## 2026-10-12 · Presupuesto de OpenRouter
+
+Miriam fija un tope de **1,50 € al mes**. La primera medición, con GPT-6.1 Sol, Sonnet 5.5 y Gemini 3.8 Flash, costó 0,56 $. Desde ahora:
+- Modelos baratos por defecto: `openai/gpt-6-luna`, `google/gemini-3.5-flash-lite` y `anthropic/claude-haiku-5.5` (todos `:online`), con respuestas de 1200 tokens como mucho.
+- `geo_check.py` mide como mucho una vez cada 7 días, apunta el coste real de cada consulta y no mide si el mes llega a 1,50 $.
+- Ojo: al cambiar de modelos, la línea base del 12 oct no es del todo comparable con las siguientes.
