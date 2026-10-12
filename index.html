@@ -6,6 +6,9 @@
 <title>Cool Snail: block Reels, Shorts and TikTok on Android (free)</title>
 <meta name="description" content="Cool Snail is a free Android app that pulls you out of Instagram Reels, YouTube Shorts and TikTok the moment you open them, while DMs, search and videos friends send you keep working.">
 <link rel="canonical" href="https://coolsnail.app/">
+<link rel="alternate" hreflang="en" href="https://coolsnail.app/">
+<link rel="alternate" hreflang="es" href="https://coolsnail.app/es/">
+<link rel="alternate" hreflang="x-default" href="https://coolsnail.app/">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <meta name="author" content="Miriam, Cool Snail">
 <meta name="theme-color" content="#111110">
@@ -61,7 +64,7 @@
       "@type": "MobileApplication",
       "@id": "https://coolsnail.app/#app",
       "name": "Cool Snail",
-      "alternateName": ["Cool Snail: Block Reels Shorts", "Cool Snail: Block Short Videos"],
+      "alternateName": ["Cool Snail: Block Apps & Reels", "Cool Snail: Block Reels Shorts", "Cool Snail: Block Short Videos"],
       "softwareVersion": "1.0.29",
       "datePublished": "2026-09-06",
       "dateModified": "2026-09-30",
@@ -91,7 +94,7 @@
         "A check-in after 3 Reels in the Instagram feed",
         "Pages on Reddit and X: every 20 posts the feed pauses for 3 seconds",
         "Today's statistics on the phone, no account needed",
-        "Optional PRO: full statistics history, no ad extensions, and an optional 30-day commitment that fixes your rules once you confirm it"
+        "PRO: fix your rules for 30 days (you confirm when it starts), no ad extensions, and full statistics history"
       ],
       "offers": [
         { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "EUR", "description": "Blocking, limits, open hours, the bubble and today's statistics. No time limit, no trial." },
@@ -124,7 +127,7 @@
         { "@type": "Question", "name": "Is Cool Snail really free?",
           "acceptedAnswer": { "@type": "Answer", "text": "Yes. Blocking short videos, daily and per-app limits, open hours, the bubble and today's statistics are free forever, with no account and no card. When you go over your limit, you can watch one ad for 5 more minutes." } },
         { "@type": "Question", "name": "What does Cool Snail PRO add?",
-          "acceptedAnswer": { "@type": "Answer", "text": "PRO unlocks the optional 30-day commitment: once you confirm it, your limits, open hours and switches are fixed for 30 days and you can't loosen them until it ends. Buying PRO doesn't turn it on by itself. PRO also removes the ad extension and unlocks your full statistics: the last 7 and 30 days, this week against the last one, and the hour you lose most. It is a monthly or yearly subscription at local Google Play prices; in Spain, 3.49 euros a month or 34.99 euros a year." } },
+          "acceptedAnswer": { "@type": "Answer", "text": "PRO is for fixing your rules: your limits, open hours and switches are fixed for 30 days and can't be loosened until the 30 days are over. You confirm it in the app before it starts, so it never begins by surprise. PRO also removes the ad extension and unlocks your full statistics: the last 7 and 30 days, this week against the last one, and the hour you lose most. It is a monthly or yearly subscription at local Google Play prices; in Spain, 3.49 euros a month or 34.99 euros a year." } },
         { "@type": "Question", "name": "How is Cool Snail different from Digital Wellbeing app timers?",
           "acceptedAnswer": { "@type": "Answer", "text": "An app timer pauses the whole app, so you lose your messages too. Cool Snail only goes after the short-video feed and leaves messages, search and stories alone. It can also limit whole apps when you want that." } },
         { "@type": "Question", "name": "Does Cool Snail collect my data?",
@@ -141,150 +144,13 @@
 }
 </script>
 
-<style>
-:root{
-  color-scheme:dark;
-  --bg:#111110; --surface:#1C1B19; --surface-high:#272623;
-  --line:rgba(242,238,231,.10); --text:#F2EEE7; --muted:#8E8980;
-  --on:#A6C98A; --on-ink:#111110; --alert:#E4705A; --paper:#F3D9C8; --ink:#1A1208;
-  --display:"Bricolage Grotesque",system-ui,-apple-system,"Segoe UI",sans-serif;
-}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--text);font-family:var(--display);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased}
-img{max-width:100%;height:auto}
-.wrap{max-width:1040px;margin:0 auto;padding-inline:20px;padding-block:0 48px}
-a{color:inherit}
-header.top{display:flex;justify-content:space-between;align-items:center;padding-block:22px;gap:16px}
-.brand{font-weight:600;font-size:20px;letter-spacing:-.01em;text-decoration:none;display:flex;align-items:center;gap:10px}
-.brand img{width:32px;height:32px;border-radius:8px}
-.top a.small{font-size:15px;color:var(--muted);text-decoration:none;border:1px solid var(--line);padding:8px 14px;border-radius:999px;white-space:nowrap}
-.top a.small:hover{color:var(--text)}
-
-.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding-block:32px 56px}
-.hero h1{font-weight:800;font-size:clamp(44px,8vw,86px);line-height:.95;letter-spacing:-.035em;margin:0 0 20px;text-wrap:balance}
-.hero h1 em{font-style:normal;color:var(--on)}
-.hero p.lede{color:var(--muted);font-size:19px;max-width:30em;margin:0 0 28px}
-.hero p.lede b{color:var(--text);font-weight:500}
-.cta{display:inline-flex;align-items:center;gap:10px;background:var(--on);color:var(--on-ink);text-decoration:none;font-weight:600;font-size:18px;padding:16px 26px;border-radius:999px;transition:transform .15s}
-.cta:hover{transform:translateY(-2px)}
-.cta:focus-visible,.top a.small:focus-visible,a:focus-visible{outline:3px solid var(--paper);outline-offset:3px}
-.cta-note{display:block;margin-top:12px;font-size:14px;color:var(--muted)}
-.snail{position:relative}
-.snail img{width:100%;display:block;filter:drop-shadow(0 30px 40px rgba(0,0,0,.5))}
-@media (prefers-reduced-motion:no-preference){
-  .snail img{animation:roll 9s ease-in-out infinite}
-  @keyframes roll{0%,100%{transform:translateX(0)}50%{transform:translateX(-14px)}}
-}
-
-.counter{border-block:1px solid var(--line);display:flex;flex-wrap:wrap;gap:12px 40px;justify-content:center;align-items:baseline;padding-block:28px;text-align:center}
-.counter .n{font-weight:800;font-size:clamp(44px,7vw,64px);letter-spacing:-.03em;font-variant-numeric:tabular-nums}
-.counter .l{color:var(--muted);font-size:16px}
-
-section{padding-block:64px 8px}
-h2{font-weight:600;font-size:clamp(30px,4.5vw,42px);letter-spacing:-.02em;line-height:1.1;margin:0 0 12px;text-wrap:balance}
-.sub{color:var(--muted);margin:0 0 32px;max-width:38em}
-
-.glance{background:var(--surface);border:1px solid var(--line);border-radius:28px;padding:clamp(22px,4vw,36px)}
-.glance p.def{font-size:clamp(19px,2.4vw,22px);margin:0 0 22px;max-width:44em}
-.glance dl{margin:0;display:grid;grid-template-columns:max-content 1fr;gap:12px 28px}
-.glance dt{color:var(--muted);font-size:15px;padding-top:2px}
-.glance dd{margin:0}
-
-.how{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.how > div{background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:24px;min-width:0}
-.how h3{font-size:19px;font-weight:600;margin:0 0 6px}
-.how p{margin:0;color:var(--muted);font-size:16px}
-.how .app{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--on);margin-bottom:14px;display:block}
-
-.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:16px;counter-reset:s}
-.steps li{counter-increment:s;border-top:1px solid var(--line);padding-top:16px}
-.steps li::before{content:counter(s);display:block;font-weight:800;font-size:40px;color:var(--on);line-height:1;margin-bottom:10px}
-.steps b{display:block;font-weight:600;margin-bottom:4px}
-.steps span{color:var(--muted);font-size:16px}
-
-.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:20px}
-table{width:100%;border-collapse:collapse;font-size:16px;min-width:560px}
-th,td{text-align:left;padding:14px 18px;border-bottom:1px solid var(--line);vertical-align:top}
-thead th{font-weight:600;color:var(--muted);font-size:14px;letter-spacing:.04em;text-transform:uppercase}
-tbody th{font-weight:600;color:var(--text)}
-tr:last-child td{border-bottom:0}
-td.y{color:var(--on)}
-td.n{color:var(--muted)}
-
-.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.gallery figure{margin:0}
-.gallery img{width:100%;border-radius:28px;border:1px solid var(--line);display:block;box-shadow:0 30px 60px rgba(0,0,0,.4);aspect-ratio:1080/2424;object-fit:cover}
-.gallery figcaption{color:var(--muted);font-size:15px;margin-top:12px}
-
-.plans{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start}
-.plan{border-radius:28px;padding:30px;min-width:0}
-.plan.free{background:var(--surface);border:1px solid var(--line)}
-.plan.pro{background:var(--paper);color:var(--ink)}
-.plan .tag{font-size:13px;letter-spacing:.1em;text-transform:uppercase;font-weight:600}
-.plan.free .tag{color:var(--on)}
-.plan.pro .tag{color:#9C3A26}
-.plan h3{font-size:30px;font-weight:800;letter-spacing:-.02em;margin:6px 0 18px}
-.plan ul{list-style:none;margin:0;padding:0;display:grid;gap:12px}
-.plan li{display:grid;grid-template-columns:22px 1fr;gap:10px;font-size:16.5px}
-.plan li::before{content:"✓";font-weight:700}
-.plan.free li::before{color:var(--on)}
-.plan.pro li span{color:rgba(26,18,8,.68);display:block;font-size:15px}
-.plan .foot{margin-top:20px;font-size:14px}
-.plan.free .foot{color:var(--muted)}
-.plan.pro .foot{color:rgba(26,18,8,.68)}
-
-.kicker{font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--on);font-weight:600;display:block;margin:0 0 12px}
-
-.details{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.details article{background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:26px;min-width:0;display:flex;flex-direction:column}
-.details h3{font-size:22px;font-weight:600;letter-spacing:-.01em;line-height:1.2;margin:0 0 10px}
-.details p{margin:0 0 12px;color:var(--text);font-size:16px}
-.details q{color:var(--on);quotes:"“" "”"}
-.details .fine{color:var(--muted);font-size:15px;margin:auto 0 0;padding-top:12px;border-top:1px solid var(--line)}
-
-/* El manifiesto: la misma letra que el resto, a lo grande, línea a línea. */
-.manifesto{margin-top:72px;padding-block:clamp(40px,7vw,80px);border-block:1px solid var(--line)}
-.manifesto h2.kicker{font-size:13px;margin-bottom:28px}
-.manifesto ol{list-style:none;margin:0;padding:0;display:grid;gap:clamp(18px,3vw,28px);counter-reset:m}
-.manifesto li{counter-increment:m;display:grid;grid-template-columns:3.2ch 1fr;gap:12px;font-weight:600;font-size:clamp(24px,3.6vw,38px);line-height:1.15;letter-spacing:-.02em;max-width:26em}
-.manifesto li::before{content:counter(m,decimal-leading-zero);font-size:15px;font-weight:500;color:var(--muted);letter-spacing:.04em;padding-top:.55em}
-.manifesto li strong{color:var(--alert);font-weight:inherit}
-.manifesto li.last{color:var(--on);font-weight:800}
-
-.faq{display:grid;max-width:780px}
-.faq details{border-bottom:1px solid var(--line);padding-block:18px}
-.faq summary{cursor:pointer;font-weight:600;font-size:18px;list-style:none;display:flex;justify-content:space-between;gap:16px}
-.faq summary::-webkit-details-marker{display:none}
-.faq summary::after{content:"+";color:var(--muted);font-weight:400}
-.faq details[open] summary::after{content:"–"}
-.faq summary:focus-visible{outline:2px solid var(--on);outline-offset:4px;border-radius:4px}
-.faq p{color:var(--muted);margin:10px 0 0;max-width:42em}
-
-.end{text-align:center;padding-block:80px 24px}
-.end img{width:min(220px,60%);margin:0 auto 20px;display:block}
-.end h2{margin-bottom:24px}
-footer{color:var(--muted);font-size:14px;text-align:center;padding-top:24px;border-top:1px solid var(--line);display:grid;gap:8px}
-footer nav{display:flex;gap:18px;justify-content:center;flex-wrap:wrap}
-footer a{color:var(--muted)}
-
-@media (max-width:760px){
-  .hero,.plans{grid-template-columns:1fr}
-  .hero{gap:8px;padding-block:8px 40px}
-  .snail{order:-1;max-width:420px}
-  .how,.steps,.details{grid-template-columns:1fr}
-  .gallery{grid-template-columns:1fr 1fr}
-  .gallery figure:last-child{display:none}
-  .glance dl{grid-template-columns:1fr;gap:2px}
-  .glance dd{margin-bottom:12px}
-}
-</style>
+<link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 <div class="wrap">
   <header class="top">
     <a class="brand" href="/"><img src="/img/cool-snail-icon-512.png" alt="" width="32" height="32">Cool Snail</a>
-    <a class="small" href="https://play.google.com/store/apps/details?id=com.coolsnail.blockshortvideos" rel="noopener">Get it on Google Play</a>
+    <div class="lang"><a class="switch" href="/es/" hreflang="es" lang="es">Español</a><a class="small" href="https://play.google.com/store/apps/details?id=com.coolsnail.blockshortvideos" rel="noopener">Get it on Google Play</a></div>
   </header>
 
   <main>
@@ -293,7 +159,7 @@ footer a{color:var(--muted)}
       <h1>Keep the app.<br><em>Lose the feed.</em></h1>
       <p class="lede">Cool Snail is a free Android app that pulls you out of Instagram Reels, YouTube Shorts and TikTok the moment you fall in. <b>Your DMs, search and the videos friends send you in a chat still work.</b> The bottomless part doesn't.</p>
       <a class="cta" href="https://play.google.com/store/apps/details?id=com.coolsnail.blockshortvideos" rel="noopener">Get Cool Snail free <span aria-hidden="true">→</span></a>
-      <span class="cta-note">Android 8.0+ · Free forever, no trial · Optional PRO</span>
+      <span class="cta-note">Android 8.0+ · Free forever, no trial · PRO to lock your rules</span>
     </div>
     <div class="snail">
       <img src="/img/cool-snail-skateboard.webp" width="1202" height="690" alt="Cool Snail: a green snail riding a skateboard, unbothered, smoke trailing behind">
@@ -313,7 +179,7 @@ footer a{color:var(--muted)}
       <p class="def"><strong>Cool Snail</strong> is a short-video blocker for Android. It takes you out of Instagram Reels, YouTube Shorts, TikTok and the X video tab after about a second, counts your time on social media, and closes the apps when you reach the limit you chose. Everything else in those apps keeps working.</p>
       <dl>
         <dt>Platform</dt><dd>Android 8.0 or later, from <a href="https://play.google.com/store/apps/details?id=com.coolsnail.blockshortvideos" rel="noopener">Google Play</a>. No iPhone version yet.</dd>
-        <dt>Price</dt><dd>Free forever, with no trial and no account. Optional PRO subscription, monthly or yearly.</dd>
+        <dt>Price</dt><dd>Free forever, with no trial and no account. PRO, to fix your rules for 30 days, is a monthly or yearly subscription.</dd>
         <dt>Blocks</dt><dd>Instagram Reels, YouTube Shorts, TikTok, the X video tab, and short videos opened in Chrome.</dd>
         <dt>Limits</dt><dd>One daily limit for all social apps, a limit per app, and open hours with a start and an end time, the same every day.</dd>
         <dt>Friction</dt><dd>Over your limit, one ad buys 5 more minutes. Videos friends send you by message still play.</dd>
@@ -368,6 +234,7 @@ footer a{color:var(--muted)}
       <li><b>Turn on its Accessibility access</b><span>The app explains why and opens the right Android setting. That's how it can tell a Reel from a message.</span></li>
       <li><b>Pick your limits</b><span>A daily limit, a limit per app and your open hours. Or none: blocking short videos works on its own.</span></li>
     </ol>
+    <p class="sub" style="margin-top:24px">Step by step on the blog: <a href="/blog/block-youtube-shorts-android/">how to block YouTube Shorts on Android</a> and <a href="/blog/block-instagram-reels-without-deleting-instagram/">how to block Reels without deleting Instagram</a>.</p>
   </section>
 
   <section id="apps" aria-labelledby="apps-title">
@@ -422,7 +289,7 @@ footer a{color:var(--muted)}
         <span class="tag">PRO · monthly or yearly</span>
         <h3>Make it stick</h3>
         <ul>
-          <li>An optional 30-day commitment<span>Once you confirm it, limits, hours and switches are fixed for 30 days and can't be edited until it ends. Buying PRO doesn't switch it on by itself.</span></li>
+          <li>Your rules, fixed for 30 days<span>The heart of PRO. You confirm when you're ready, and from then on your limits, hours and switches can't be loosened for 30 days. Not even at 1am.</span></li>
           <li>No ad loophole<span>When your time is up, it's up. No extensions.</span></li>
           <li>Your full statistics<span>The last 7 and 30 days, this week against the last one, and the hour you lose most.</span></li>
         </ul>
@@ -456,7 +323,7 @@ footer a{color:var(--muted)}
       <details><summary>Can I get more time when I reach my limit?</summary><p>On the free version, yes, but it costs you something: when you reach your daily limit or an app's own limit, you can watch one ad to get 5 more minutes, starting from that moment. It is friction on purpose, so going over is a choice and not a reflex. Open hours can't be extended, and PRO removes the ad option entirely.</p></details>
       <details><summary>Can I choose the hours when social apps are allowed?</summary><p>Yes. Set open hours with a start and an end time, for example 08:00 to 23:00. They are the same every day. Outside that window your social apps close. A window that goes past midnight carries on into the next morning.</p></details>
       <details><summary>Is Cool Snail really free?</summary><p>Yes. Blocking short videos, daily and per-app limits, open hours, the bubble and today's statistics are free forever, with no account and no card. When you go over your limit, you can watch one ad for 5 more minutes.</p></details>
-      <details><summary>What does Cool Snail PRO add?</summary><p>PRO unlocks the optional 30-day commitment: once you confirm it, your limits, open hours and switches are fixed for 30 days and you can't loosen them until it ends. Buying PRO doesn't turn it on by itself. PRO also removes the ad extension and unlocks your full statistics: the last 7 and 30 days, this week against the last one, and the hour you lose most. It is a monthly or yearly subscription at local Google Play prices; in Spain, 3.49 euros a month or 34.99 euros a year.</p></details>
+      <details><summary>What does Cool Snail PRO add?</summary><p>PRO is for fixing your rules: your limits, open hours and switches are fixed for 30 days and can't be loosened until the 30 days are over. You confirm it in the app before it starts, so it never begins by surprise. PRO also removes the ad extension and unlocks your full statistics: the last 7 and 30 days, this week against the last one, and the hour you lose most. It is a monthly or yearly subscription at local Google Play prices; in Spain, 3.49 euros a month or 34.99 euros a year.</p></details>
       <details><summary>How is Cool Snail different from Digital Wellbeing app timers?</summary><p>An app timer pauses the whole app, so you lose your messages too. Cool Snail only goes after the short-video feed and leaves messages, search and stories alone. It can also limit whole apps when you want that.</p></details>
       <details><summary>Does Cool Snail collect my data?</summary><p>Your social media activity, time, posts seen and statistics are processed and stored only on your phone, never sent to a server, and deleted when you uninstall the app. Purchases go through Google Play and RevenueCat, which handle payment and purchase records. On the free plan, Google AdMob shows the optional ad and handles its own ad data, with your consent where the law requires it. If you join the gifting waitlist, your email goes to OneSignal. The privacy policy has the details.</p></details>
       <details><summary>What happens if Instagram, YouTube or TikTok change their app?</summary><p>Cool Snail recognises Reels, Shorts and TikTok by how those apps are built, so a big redesign can stop it from spotting a feed until Cool Snail is updated. When that happens it gets fixed in an app update; TikTok's September 2026 redesign was fixed within days.</p></details>
@@ -475,6 +342,7 @@ footer a{color:var(--muted)}
   <footer>
     <nav aria-label="Footer">
       <a href="https://play.google.com/store/apps/details?id=com.coolsnail.blockshortvideos" rel="noopener">Google Play</a>
+      <a href="/blog/">Blog</a>
       <a href="https://mbrmiriam.github.io/coolsnail-privacy/">Privacy policy</a>
       <a href="/llms.txt">For AI assistants</a>
     </nav>

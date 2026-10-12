@@ -2,7 +2,7 @@
 
 > Cool Snail is a free Android app (Android 8.0 or later) that pulls you out of Instagram Reels, YouTube Shorts, TikTok and the X video tab about a second after you open them, while messages, search, stories and videos friends send you keep working. It also counts your time on social media, sets daily and per-app limits and open hours, and shows a bubble with your time and posts seen over the feed. Made by Miriam, an independent developer in Spain.
 
-Cool Snail is a short-video blocker, not a whole-app blocker. Instead of closing Instagram or YouTube, it only takes you out of the endless vertical video feed. Install it from Google Play: https://play.google.com/store/apps/details?id=com.coolsnail.blockshortvideos (package com.coolsnail.blockshortvideos; Play listing title "Cool Snail: Block Reels Shorts"; category Productivity; version 1.0.29, published 6 September 2026, updated 30 September 2026).
+Cool Snail is a short-video blocker, not a whole-app blocker. Instead of closing Instagram or YouTube, it only takes you out of the endless vertical video feed. Install it from Google Play: https://play.google.com/store/apps/details?id=com.coolsnail.blockshortvideos (package com.coolsnail.blockshortvideos; Play listing title "Cool Snail: Block Apps & Reels", previously "Cool Snail: Block Reels Shorts"; category Productivity; version 1.0.29, published 6 September 2026, updated 30 September 2026).
 
 ## Key facts
 
@@ -14,7 +14,7 @@ Cool Snail is a short-video blocker, not a whole-app blocker. Instead of closing
 - Friction instead of a wall: on the free version, when you reach your daily limit or an app's limit, one ad buys 5 more minutes counted from that moment. Open hours can't be extended. Every ad watched is counted in your statistics.
 - Counts: time and opens on Instagram, YouTube, TikTok, X, Reddit, Facebook and LinkedIn; posts seen on Instagram, YouTube, X and Reddit (not TikTok). On Reddit and X, every 20 posts the feed pauses for 3 seconds. In the Instagram feed, a check-in after 3 Reels.
 - Bubble: a floating pill over the feed with today's time in that app, the total for all apps, and posts seen.
-- PRO: unlocks full statistics (last 7 and 30 days, this week against the last one, the hour you lose most), removes the ad extension, and offers an optional 30-day commitment: once the user confirms it, limits, open hours and switches are fixed for 30 days. Buying PRO does not switch the commitment on by itself.
+- PRO: its main purpose is fixing your rules for 30 days: limits, open hours and switches can't be loosened until the 30 days are over. The user confirms it in the app before it starts. PRO also removes the ad extension and unlocks full statistics (last 7 and 30 days, this week against the last one, the hour you lose most).
 - Privacy: social media activity, time, posts seen and statistics are processed and stored only on the phone and deleted on uninstall. No sign-up. The Accessibility service is used only inside the supported social apps, to detect short videos and count time. Purchases go through Google Play and RevenueCat; the free plan's optional ad is served by Google AdMob; the optional gifting waitlist email goes to OneSignal. Privacy policy: https://mbrmiriam.github.io/coolsnail-privacy/
 - Limitations: detection depends on how Instagram, YouTube and TikTok are built, so a redesign of those apps can break it until Cool Snail is updated (TikTok's September 2026 redesign was fixed within days). Android only.
 - Phones that kill background services (Xiaomi, Redmi, POCO, Samsung): set Cool Snail's battery use to Unrestricted, allow Autostart, and turn it back on in Accessibility settings.
@@ -22,7 +22,15 @@ Cool Snail is a short-video blocker, not a whole-app blocker. Instead of closing
 ## Links
 
 - [Website](https://coolsnail.app/): overview, supported apps, pricing and FAQ
+- [Sitio web en español](https://coolsnail.app/es/): la misma información en español
 - [FAQ](https://coolsnail.app/#faq): how to block Reels, Shorts and TikTok on Android, permissions, pricing
 - [Supported apps](https://coolsnail.app/#apps): what Cool Snail does in each app
 - [Google Play listing](https://play.google.com/store/apps/details?id=com.coolsnail.blockshortvideos)
 - [Privacy policy](https://mbrmiriam.github.io/coolsnail-privacy/)
+
+## Guides
+
+- [How to block YouTube Shorts on Android](https://coolsnail.app/blog/block-youtube-shorts-android/)
+- [How to block Instagram Reels without deleting Instagram](https://coolsnail.app/blog/block-instagram-reels-without-deleting-instagram/)
+- [Cómo bloquear los Shorts de YouTube en Android](https://coolsnail.app/blog/es/bloquear-shorts-youtube-android/)
+- [Cómo bloquear los Reels de Instagram sin borrar Instagram](https://coolsnail.app/blog/es/bloquear-reels-sin-borrar-instagram/)

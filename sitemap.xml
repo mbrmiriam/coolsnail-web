@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://coolsnail.app/</loc><lastmod>2026-10-12</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://coolsnail.app/</loc><lastmod>2026-10-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coolsnail.app/"/><xhtml:link rel="alternate" hreflang="es" href="https://coolsnail.app/es/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://coolsnail.app/"/></url>
+  <url><loc>https://coolsnail.app/es/</loc><lastmod>2026-10-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coolsnail.app/"/><xhtml:link rel="alternate" hreflang="es" href="https://coolsnail.app/es/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://coolsnail.app/"/></url>
+  <url><loc>https://coolsnail.app/blog/</loc><lastmod>2026-10-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coolsnail.app/blog/"/><xhtml:link rel="alternate" hreflang="es" href="https://coolsnail.app/blog/es/"/></url>
+  <url><loc>https://coolsnail.app/blog/es/</loc><lastmod>2026-10-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coolsnail.app/blog/"/><xhtml:link rel="alternate" hreflang="es" href="https://coolsnail.app/blog/es/"/></url>
+  <url><loc>https://coolsnail.app/blog/block-youtube-shorts-android/</loc><lastmod>2026-10-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coolsnail.app/blog/block-youtube-shorts-android/"/><xhtml:link rel="alternate" hreflang="es" href="https://coolsnail.app/blog/es/bloquear-shorts-youtube-android/"/></url>
+  <url><loc>https://coolsnail.app/blog/es/bloquear-shorts-youtube-android/</loc><lastmod>2026-10-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coolsnail.app/blog/block-youtube-shorts-android/"/><xhtml:link rel="alternate" hreflang="es" href="https://coolsnail.app/blog/es/bloquear-shorts-youtube-android/"/></url>
+  <url><loc>https://coolsnail.app/blog/block-instagram-reels-without-deleting-instagram/</loc><lastmod>2026-10-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coolsnail.app/blog/block-instagram-reels-without-deleting-instagram/"/><xhtml:link rel="alternate" hreflang="es" href="https://coolsnail.app/blog/es/bloquear-reels-sin-borrar-instagram/"/></url>
+  <url><loc>https://coolsnail.app/blog/es/bloquear-reels-sin-borrar-instagram/</loc><lastmod>2026-10-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coolsnail.app/blog/block-instagram-reels-without-deleting-instagram/"/><xhtml:link rel="alternate" hreflang="es" href="https://coolsnail.app/blog/es/bloquear-reels-sin-borrar-instagram/"/></url>
   <url><loc>https://coolsnail.app/llms.txt</loc><lastmod>2026-10-12</lastmod></url>
 </urlset>
