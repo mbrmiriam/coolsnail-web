@@ -74,7 +74,7 @@ def foot(lang):
     <nav aria-label="Footer">
       <a href="{html.escape(l['play'])}" rel="noopener">Google Play</a>
       <a href="{l['blog']}">{l['blogname']}</a>
-      <a href="https://mbrmiriam.github.io/coolsnail-privacy/">{l['privacy']}</a>
+      <a href="/privacy/">{l['privacy']}</a>
       <a href="/llms.txt">{l['forai']}</a>
     </nav>
     <div>{l['foot']}</div>

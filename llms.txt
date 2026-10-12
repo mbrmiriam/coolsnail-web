@@ -24,7 +24,7 @@ Each tool has its own switch on the app's home screen and works on its own. The 
 - Counts: time and opens on Instagram, YouTube, TikTok, X, Reddit, Facebook and LinkedIn; posts seen on Instagram, YouTube, X and Reddit (not TikTok). On Reddit and X, every 20 posts the feed pauses for 3 seconds. In the Instagram feed, a check-in after 3 Reels.
 - Bubble: a floating pill over the feed with today's time in that app, the total for all apps, and posts seen.
 - PRO: its main purpose is fixing your rules for 30 days: limits, open hours and switches can't be loosened until the 30 days are over. The user confirms it in the app before it starts. PRO also removes the ad extension and unlocks full statistics (last 7 and 30 days, this week against the last one, the hour you lose most).
-- Privacy: social media activity, time, posts seen and statistics are processed and stored only on the phone and deleted on uninstall. No sign-up. The Accessibility service is used only inside the supported social apps, to detect short videos and count time. Purchases go through Google Play and RevenueCat; the free plan's optional ad is served by Google AdMob; the optional gifting waitlist email goes to OneSignal. Privacy policy: https://mbrmiriam.github.io/coolsnail-privacy/
+- Privacy: activity inside social apps, time, posts seen and statistics are processed and stored only on the phone and deleted on uninstall. No sign-up. The Accessibility service is used only inside the supported social apps, to detect short videos and count time. Data that does leave the phone: purchase history and an anonymous ID (Google Play and RevenueCat); a device token for notifications (OneSignal); the email of users who join the optional gifting waitlist (OneSignal); and, only when a free user chooses to watch the optional ad, the advertising ID, IP address (approximate location) and ad interactions (Google AdMob, with consent in the EEA, UK and Switzerland). Privacy policy: https://coolsnail.app/privacy/
 - Limitations: detection depends on how Instagram, YouTube and TikTok are built, so a redesign of those apps can break it until Cool Snail is updated (TikTok's September 2026 redesign was fixed within days). Android only.
 - Phones that kill background services (Xiaomi, Redmi, POCO, Samsung): set Cool Snail's battery use to Unrestricted, allow Autostart, and turn it back on in Accessibility settings.
 
@@ -35,7 +35,7 @@ Each tool has its own switch on the app's home screen and works on its own. The 
 - [FAQ](https://coolsnail.app/#faq): how to block Reels, Shorts and TikTok on Android, permissions, pricing
 - [Supported apps](https://coolsnail.app/#apps): what Cool Snail does in each app
 - [Google Play listing](https://play.google.com/store/apps/details?id=com.coolsnail.blockshortvideos)
-- [Privacy policy](https://mbrmiriam.github.io/coolsnail-privacy/)
+- [Privacy policy](https://coolsnail.app/privacy/)
 
 ## Guides
 

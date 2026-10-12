@@ -179,3 +179,22 @@ article.post a{color:var(--on)}
 .postlist a:hover{border-color:var(--on)}
 .postlist b{display:block;font-size:21px;font-weight:600;margin-bottom:6px}
 .postlist span{color:var(--muted)}
+
+/* La política de privacidad: texto largo, una columna cómoda. */
+.policy{max-width:760px;padding-block:24px 64px}
+.policy h1{font-weight:800;font-size:clamp(36px,6vw,56px);letter-spacing:-.03em;line-height:1;margin:0 0 10px}
+.policy .updated{color:var(--muted);font-size:15px;margin:0 0 32px}
+.policy h2{font-size:24px;font-weight:700;letter-spacing:-.015em;margin:40px 0 10px}
+.policy p,.policy li{color:var(--text)}
+.policy p{margin:0 0 14px}
+.policy ul{margin:0 0 14px;padding-left:22px}
+.policy li{margin-bottom:8px}
+.policy li::marker{color:var(--muted)}
+.policy strong{font-weight:600}
+.policy .card{background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:24px 26px;margin:28px 0}
+.policy .card h2{margin-top:0}
+.policy hr.rule{display:none}
+.policy table th{color:var(--muted);font-weight:500}
+.policy td.no{color:var(--on)}
+.policy td.yes{color:var(--paper)}
+.policy a{color:var(--text)}
