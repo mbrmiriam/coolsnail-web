@@ -2,6 +2,7 @@ PLAY = "https://play.google.com/store/apps/details?id=com.coolsnail.blockshortvi
 
 EN = [
 dict(
+ date="2026-10-12",
  slug="block-youtube-shorts-android", alt_slug="bloquear-shorts-youtube-android",
  title="How to block YouTube Shorts on Android (and keep YouTube)",
  desc="YouTube has no switch to turn Shorts off. Here is what each option really does on Android, and how to block only Shorts while long videos, subscriptions and search keep working.",
@@ -46,6 +47,7 @@ dict(
  cta="Cool Snail is free on Android: it takes you out of Shorts, Reels and TikTok and leaves the rest of each app alone.",
 ),
 dict(
+ date="2026-10-12",
  slug="block-instagram-reels-without-deleting-instagram", alt_slug="bloquear-reels-sin-borrar-instagram",
  title="How to block Instagram Reels without deleting Instagram",
  desc="Instagram has no way to switch Reels off. Here is what each option does on Android, and how to block only Reels while DMs, stories and your feed keep working.",
@@ -90,6 +92,7 @@ dict(
  cta="Keep Instagram, lose the Reels hole. Cool Snail is free on Android.",
 ),
 dict(
+ date="2026-10-12",
  slug="best-apps-to-block-social-media-android", alt_slug="mejores-apps-bloquear-redes-sociales-android",
  title="Best apps to block social media addiction on Android (2026)",
  desc="Android's Digital Wellbeing, whole-app blockers like AppBlock, and Cool Snail compared honestly: what each one blocks, what it leaves working, and when to pick which.",
@@ -138,6 +141,7 @@ dict(
 
 ES = [
 dict(
+ date="2026-10-12",
  slug="bloquear-shorts-youtube-android", alt_slug="block-youtube-shorts-android",
  title="Cómo bloquear los Shorts de YouTube en Android (sin quitar YouTube)",
  desc="YouTube no tiene un botón para quitar los Shorts. Esto es lo que hace de verdad cada opción en Android, y cómo bloquear sólo los Shorts mientras los vídeos largos, las suscripciones y la búsqueda siguen funcionando.",
@@ -182,6 +186,7 @@ dict(
  cta="Cool Snail es gratis en Android: te saca de los Shorts, los Reels y TikTok y deja en paz el resto de cada app.",
 ),
 dict(
+ date="2026-10-12",
  slug="bloquear-reels-sin-borrar-instagram", alt_slug="block-instagram-reels-without-deleting-instagram",
  title="Cómo bloquear los Reels de Instagram sin borrar Instagram",
  desc="Instagram no deja quitar los Reels. Esto es lo que hace cada opción en Android, y cómo bloquear sólo los Reels mientras los mensajes, las historias y tu feed siguen funcionando.",
@@ -226,6 +231,7 @@ dict(
  cta="Quédate con Instagram y suelta el pozo de los Reels. Cool Snail es gratis en Android.",
 ),
 dict(
+ date="2026-10-12",
  slug="mejores-apps-bloquear-redes-sociales-android", alt_slug="best-apps-to-block-social-media-android",
  title="Mejores apps para bloquear la adicción a las redes sociales en Android (2026)",
  desc="Bienestar digital de Android, los bloqueadores de apps enteras como AppBlock y Cool Snail, comparados con honestidad: qué bloquea cada uno, qué deja funcionar y cuándo elegir cuál.",

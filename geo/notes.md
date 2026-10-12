@@ -11,7 +11,6 @@
 
 **Hueco detectado:** no había ninguna página comparativa ("best apps…", "alternatives to…"), que es el formato que más citan los asistentes. Cubierto hoy con la guía EN/ES. Siguiente hueco: Cool Snail no tiene menciones de terceros (prensa tech, listados). Borrador en `geo/outreach.md`.
 
-**Pendiente técnico:** `build_blog.py` usa una sola `DATE` para todos los posts; al publicar el próximo, cambiará también la fecha de los antiguos. Conviene una fecha por post.
 
 ### Primera medición (2026-10-12, lanzada por Miriam en su Mac)
 
@@ -27,7 +26,6 @@ Lectura: en vídeos cortos, la competencia directa en las respuestas es **NoScro
 ## Pendiente (para más adelante)
 
 - **`geo/` y `tools/` se publican en la web** (hay `.nojekyll`, así que GitHub Pages sirve todo el repo): coolsnail.app/geo/notes.md y /geo/outreach.md son públicos. A Miriam le da igual por ahora (12 oct 2026); más adelante, moverlos a un sitio que no se publique.
-- `build_blog.py` usa una sola `DATE` para todos los posts: poner una fecha por post antes del próximo.
 
 ## 2026-10-12 · Presupuesto de OpenRouter
 
@@ -42,3 +40,9 @@ Miriam fija un tope de **1,50 € al mes**. La primera medición, con GPT-6.1 So
 - **Objetivo nuevo:** salir no sólo cuando alguien pide una app, sino cuando alguien cuenta que pasa demasiado tiempo en redes ("puedes probar una app como Cool Snail"). Las preguntas pasan a ser 2 de búsqueda de app y 2 conversacionales (EN y ES). Se quitan "app to stop doomscrolling…" y "alternatives to AppBlock…".
 - `results.jsonl` guarda ahora también qué apps conocidas salen en cada respuesta (`apps`).
 - **Idea de contenido para ese objetivo:** las respuestas conversacionales suelen dar consejos generales (desactivar notificaciones, temporizadores, poner el móvil lejos) y, como mucho, una app. Para entrar ahí hace falta una guía de consejos tipo "How to spend less time on social media without quitting" / "Cómo pasar menos tiempo en redes sin dejarlas", útil por sí sola, en la que Cool Snail sea uno de los pasos y no todo el artículo.
+
+## 2026-10-12 · Ritmo y medición (Miriam)
+
+- **Publicar despacio** para que Google no lo trate como contenido generado en masa: como mucho una pareja EN+ES cada 2-3 días. Cada post lleva ya su propia `date` en `posts_content.py`.
+- La guía "How to spend less time on social media without quitting" / "Cómo pasar menos tiempo en redes sociales sin dejarlas" está escrita y espera en `drafts/` (carpeta local, fuera de git) para publicarse el **14 oct**.
+- **Medición semanal**, primero gratis desde Chrome (chat temporal/incógnito en ChatGPT, Gemini y Claude) con `geo_check.py --record`; la API de OpenRouter sólo como respaldo, con el tope de 1,50 $/mes. Con modelos buenos, la API sólo da para ~2 mediciones al mes.

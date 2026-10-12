@@ -1,12 +1,14 @@
 """Pregunta a ChatGPT, Gemini y Claude (vía OpenRouter, con búsqueda web) qué app recomiendan, y apunta si sale Cool Snail.
 
 Uso: OPENROUTER_API_KEY=... python3 tools/geo_check.py
+Respuesta copiada de la web (ChatGPT, Gemini o Claude en Chrome, sin coste):
+     python3 tools/geo_check.py --record ChatGPT "pregunta exacta" < respuesta.txt
 Modelos: GEO_MODELS="openai/gpt-6.1-sol:online,google/gemini-3.8-flash:online" (separados por comas).
 Por defecto, los modelos que usa la gente en ChatGPT, Gemini y Claude, no los baratos: queremos ver lo que ve ella.
 Cada consulta añade una línea a geo/results.jsonl, con lo que ha costado.
 
 Frenos de gasto (presupuesto: 1,50 € al mes):
-- No vuelve a medir si la última medición fue hace menos de GEO_MIN_DAYS días (14 por defecto).
+- No vuelve a medir si la última medición fue hace menos de GEO_MIN_DAYS días (7 por defecto).
 - No mide si lo gastado este mes llega a GEO_MONTHLY_USD (1.50 por defecto).
 - --force se salta el primer freno, nunca el segundo.
 """
@@ -50,20 +52,34 @@ def history():
     if os.path.exists(OUT):
         for line in open(OUT, encoding="utf-8"):
             row = json.loads(line)
-            last = max(last or row["date"], row["date"])
+            if row.get("model") != "web":
+                last = max(last or row["date"], row["date"])
             if row["date"].startswith(month):
                 # Las filas antiguas no traen coste: la primera medición (12 oct 2026) costó 0,56 $.
                 spent += row.get("cost_usd", 0.56 / 12)
     return last, spent
 
 
+def record(engine, query, answer):
+    """Guarda una respuesta sacada de la web del asistente, no de la API (model="web", coste 0)."""
+    apps = [a for a in APPS if re.search(r"\b" + re.escape(a) + r"\b", answer, re.I)]
+    row = {"date": datetime.now(timezone.utc).isoformat(timespec="seconds"), "engine": engine, "model": "web",
+           "query": query, "mentioned": bool(MENTION.search(answer)), "apps": apps, "cost_usd": 0.0, "answer": answer}
+    os.makedirs(os.path.dirname(OUT), exist_ok=True)
+    with open(OUT, "a", encoding="utf-8") as f:
+        f.write(json.dumps(row, ensure_ascii=False) + "\n")
+    print(f"{engine:8} {'SÍ' if row['mentioned'] else 'no':3}  {query}  → {', '.join(apps) or '-'}")
+
+
 def main():
+    if sys.argv[1:2] == ["--record"]:
+        return record(sys.argv[2], sys.argv[3], sys.stdin.read())
     key = os.environ.get("OPENROUTER_API_KEY")
     if not key:
         sys.exit("Falta OPENROUTER_API_KEY")
     models = [m.strip() for m in os.environ.get("GEO_MODELS", DEFAULT_MODELS).split(",") if m.strip()]
     budget = float(os.environ.get("GEO_MONTHLY_USD", "1.50"))
-    min_days = float(os.environ.get("GEO_MIN_DAYS", "14"))
+    min_days = float(os.environ.get("GEO_MIN_DAYS", "7"))
     last, spent = history()
     if spent >= budget:
         print(f"Presupuesto del mes agotado: {spent:.2f} $ de {budget:.2f} $. No mido.")

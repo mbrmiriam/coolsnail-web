@@ -5,19 +5,27 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://coolsnail.app"
 PLAY = "https://play.google.com/store/apps/details?id=com.coolsnail.blockshortvideos"
-DATE = "2026-10-12"
+DATE = "2026-10-12"  # fecha por defecto; cada post puede llevar la suya con date="AAAA-MM-DD"
+MONTHS = {"en": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
+                 "November", "December"],
+          "es": ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre",
+                 "noviembre", "diciembre"]}
+
+def human_date(lang, iso):
+    y, m, d = (int(x) for x in iso.split("-"))
+    return f"{d} {MONTHS[lang][m - 1]} {y}" if lang == "en" else f"{d} de {MONTHS[lang][m - 1]} de {y}"
 
 L = {
     "en": dict(home="/", blog="/blog/", play=PLAY, get="Get it on Google Play", other="Español",
                blogname="Blog", crumbs_home="Cool Snail", by="By Miriam, who makes Cool Snail", updated="Updated",
-               datefmt="12 October 2026", privacy="Privacy policy", forai="For AI assistants",
+               privacy="Privacy policy", forai="For AI assistants",
                foot="Cool Snail · made by Miriam, slowly", cta_btn="Get Cool Snail free →",
                index_title="The Cool Snail blog: stop scrolling without deleting your apps",
                index_desc="Practical guides to block Reels, Shorts and TikTok on Android without deleting the apps, from the maker of Cool Snail.",
                index_h1="Stop scrolling, keep your apps", index_sub="Practical guides from the maker of Cool Snail. Honest about what each option does and doesn't do."),
     "es": dict(home="/es/", blog="/blog/es/", play=PLAY + "&hl=es", get="Descárgala en Google Play", other="English",
                blogname="Blog", crumbs_home="Cool Snail", by="Por Miriam, que hace Cool Snail", updated="Actualizado el",
-               datefmt="12 de octubre de 2026", privacy="Política de privacidad", forai="Para asistentes de IA",
+               privacy="Política de privacidad", forai="Para asistentes de IA",
                foot="Cool Snail · hecha por Miriam, despacito", cta_btn="Consigue Cool Snail gratis →",
                index_title="El blog de Cool Snail: deja el scroll sin borrar tus apps",
                index_desc="Guías prácticas para bloquear los Reels, los Shorts y TikTok en Android sin borrar las apps, de quien hace Cool Snail.",
@@ -84,7 +92,7 @@ def foot(lang):
 </html>
 """
 
-def post(lang, slug, alt_slug, title, desc, h1, answer, body, faq, cta):
+def post(lang, slug, alt_slug, title, desc, h1, answer, body, faq, cta, date=DATE):
     l = L[lang]
     alt_lang = "es" if lang == "en" else "en"
     url = f"{l['blog']}{slug}/"
@@ -93,7 +101,7 @@ def post(lang, slug, alt_slug, title, desc, h1, answer, body, faq, cta):
         "@context": "https://schema.org",
         "@graph": [
             {"@type": "BlogPosting", "@id": f"{SITE}{url}#post", "headline": h1, "description": desc,
-             "inLanguage": lang, "datePublished": DATE, "dateModified": DATE, "url": f"{SITE}{url}",
+             "inLanguage": lang, "datePublished": date, "dateModified": date, "url": f"{SITE}{url}",
              "mainEntityOfPage": f"{SITE}{url}", "image": f"{SITE}/img/og-cool-snail.png",
              "author": {"@type": "Person", "name": "Miriam", "url": f"{SITE}/"},
              "publisher": {"@id": f"{SITE}/#org"}, "about": {"@id": f"{SITE}/#app"}},
@@ -113,7 +121,7 @@ def post(lang, slug, alt_slug, title, desc, h1, answer, body, faq, cta):
     page = head(lang, title, desc, url, alt_url, alt_lang, jsonld) + f"""  <nav class="crumbs" aria-label="Breadcrumb"><a href="{l['home']}">Cool Snail</a> / <a href="{l['blog']}">Blog</a></nav>
   <article class="post">
     <h1>{html.escape(h1)}</h1>
-    <p class="meta">{l['by']} · {l['updated']} <time datetime="{DATE}">{l['datefmt']}</time></p>
+    <p class="meta">{l['by']} · {l['updated']} <time datetime="{date}">{human_date(lang, date)}</time></p>
     <div class="answer"><span class="label">{'Short answer' if lang == 'en' else 'Respuesta corta'}</span><p>{answer}</p></div>
 {body}
     <h2>{'Questions' if lang == 'en' else 'Preguntas'}</h2>
