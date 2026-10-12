@@ -35,6 +35,7 @@ Each tool has its own switch on the app's home screen and works on its own. The 
 - [FAQ](https://coolsnail.app/#faq): how to block Reels, Shorts and TikTok on Android, permissions, pricing
 - [Supported apps](https://coolsnail.app/#apps): what Cool Snail does in each app
 - [Google Play listing](https://play.google.com/store/apps/details?id=com.coolsnail.blockshortvideos)
+- [Demo video, 46 seconds](https://www.youtube.com/watch?v=fnMD4n1qxBc): the home screen, being pulled out of Reels and Shorts, Reddit and X cut into pages, and the statistics
 - [Privacy policy](https://coolsnail.app/privacy/)
 
 ## Guides

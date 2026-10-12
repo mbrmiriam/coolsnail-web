@@ -102,7 +102,28 @@
         { "@type": "Offer", "name": "Cool Snail PRO yearly", "price": "34.99", "priceCurrency": "EUR", "eligibleRegion": "ES", "description": "Yearly subscription. Local prices in Google Play." }
       ],
       "publisher": { "@id": "https://coolsnail.app/#org" },
-      "privacyPolicy": "/privacy/"
+      "privacyPolicy": "https://coolsnail.app/privacy/"
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://coolsnail.app/#demo",
+      "name": "Cool Snail demo: block Reels, Shorts and endless feeds on Android",
+      "description": "A 46-second tour of Cool Snail on Android: the home screen with today's time, the snail pulling you out of Instagram Reels and YouTube Shorts, Reddit and X cut into pages, and the statistics.",
+      "thumbnailUrl": [
+        "https://coolsnail.app/img/cool-snail-demo-poster.jpg",
+        "https://coolsnail.app/img/cool-snail-demo-poster.webp"
+      ],
+      "uploadDate": "2026-09-30T13:13:19-07:00",
+      "duration": "PT46S",
+      "embedUrl": "https://www.youtube.com/embed/fnMD4n1qxBc",
+      "url": "https://www.youtube.com/watch?v=fnMD4n1qxBc",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://coolsnail.app/#org"
+      },
+      "about": {
+        "@id": "https://coolsnail.app/#app"
+      }
     },
     {
       "@type": "FAQPage",
@@ -203,6 +224,19 @@
         <p class="fine">For awareness, not punishment: it blocks nothing, it just keeps the number in view.</p>
       </article>
     </div>
+  </section>
+
+  <section id="demo" aria-labelledby="demo-title">
+    <h2 id="demo-title">See it in 46 seconds</h2>
+    <p class="sub">Home, Reels, Shorts, pages and statistics, on a real phone.</p>
+    <div class="video" data-yt="fnMD4n1qxBc">
+      <button type="button" aria-label="Play the 46-second Cool Snail demo (loads YouTube)">
+        <img src="/img/cool-snail-demo-poster.webp" width="1280" height="720" loading="lazy" alt="Cool Snail home screen in the demo: 34 minutes on social media today and the four tools switched on">
+        <span class="play"><svg viewBox="0 0 24 24" width="30" height="30" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l11-6.5a1 1 0 0 0 0-1.72l-11-6.5A1 1 0 0 0 8 5.5Z"/></svg></span>
+        <span class="len">0:46</span>
+      </button>
+    </div>
+    <p class="video-link"><a href="https://www.youtube.com/watch?v=fnMD4n1qxBc" rel="noopener">Watch on YouTube</a></p>
   </section>
 
   <!-- La ficha de hechos: lo primero que un LLM cita. Frases cortas, sin adornos. -->
@@ -384,5 +418,19 @@
     <div>Cool Snail · made by Miriam, slowly · Updated <time datetime="2026-10-12">October 2026</time></div>
   </footer>
 </div>
+<script>
+/* El vídeo de YouTube sólo se carga al pulsar: antes no se pide nada a Google. */
+document.querySelectorAll('.video[data-yt]').forEach(function (box) {
+  box.querySelector('button').addEventListener('click', function () {
+    var f = document.createElement('iframe');
+    f.src = 'https://www.youtube-nocookie.com/embed/' + box.dataset.yt + '?autoplay=1&rel=0';
+    f.title = this.getAttribute('aria-label');
+    f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+    f.allowFullscreen = true;
+    box.replaceChildren(f);
+    f.focus();
+  }, { once: true });
+});
+</script>
 </body>
 </html>

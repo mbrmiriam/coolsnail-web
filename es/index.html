@@ -98,7 +98,28 @@
         { "@type": "Offer", "name": "Cool Snail PRO anual", "price": "34.99", "priceCurrency": "EUR", "eligibleRegion": "ES", "description": "Suscripción anual." }
       ],
       "publisher": { "@id": "https://coolsnail.app/#org" },
-      "privacyPolicy": "/privacy/"
+      "privacyPolicy": "https://coolsnail.app/privacy/"
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://coolsnail.app/es/#video",
+      "name": "Cool Snail demo: block Reels, Shorts and endless feeds on Android",
+      "description": "Un recorrido de 46 segundos por Cool Snail en Android: la pantalla principal con tu tiempo de hoy, el caracol sacándote de los Reels de Instagram y los Shorts de YouTube, Reddit y X cortados en páginas, y las estadísticas. En inglés.",
+      "thumbnailUrl": [
+        "https://coolsnail.app/img/cool-snail-demo-poster.jpg",
+        "https://coolsnail.app/img/cool-snail-demo-poster.webp"
+      ],
+      "uploadDate": "2026-09-30T13:13:19-07:00",
+      "duration": "PT46S",
+      "embedUrl": "https://www.youtube.com/embed/fnMD4n1qxBc",
+      "url": "https://www.youtube.com/watch?v=fnMD4n1qxBc",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://coolsnail.app/#org"
+      },
+      "about": {
+        "@id": "https://coolsnail.app/#app"
+      }
     },
     {
       "@type": "FAQPage",
@@ -198,6 +219,19 @@
         <p class="fine">Para darte cuenta, no para castigarte: no bloquea nada, sólo te pone el número delante.</p>
       </article>
     </div>
+  </section>
+
+  <section id="video" aria-labelledby="video-title">
+    <h2 id="video-title">Míralo en 46 segundos</h2>
+    <p class="sub">La pantalla principal, los Reels, los Shorts, las páginas y las estadísticas, en un móvil de verdad. El vídeo está en inglés.</p>
+    <div class="video" data-yt="fnMD4n1qxBc">
+      <button type="button" aria-label="Reproducir el vídeo de 46 segundos de Cool Snail (carga YouTube)">
+        <img src="/img/cool-snail-demo-poster.webp" width="1280" height="720" loading="lazy" alt="Pantalla principal de Cool Snail en el vídeo: 34 minutos en redes hoy y las cuatro herramientas encendidas">
+        <span class="play"><svg viewBox="0 0 24 24" width="30" height="30" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l11-6.5a1 1 0 0 0 0-1.72l-11-6.5A1 1 0 0 0 8 5.5Z"/></svg></span>
+        <span class="len">0:46</span>
+      </button>
+    </div>
+    <p class="video-link"><a href="https://www.youtube.com/watch?v=fnMD4n1qxBc" rel="noopener">Verlo en YouTube</a></p>
   </section>
 
   <section id="que-es-cool-snail" aria-labelledby="glance-title">
@@ -377,5 +411,19 @@
     <div>Cool Snail · hecha por Miriam, despacito · Actualizada en <time datetime="2026-10-12">octubre de 2026</time></div>
   </footer>
 </div>
+<script>
+/* El vídeo de YouTube sólo se carga al pulsar: antes no se pide nada a Google. */
+document.querySelectorAll('.video[data-yt]').forEach(function (box) {
+  box.querySelector('button').addEventListener('click', function () {
+    var f = document.createElement('iframe');
+    f.src = 'https://www.youtube-nocookie.com/embed/' + box.dataset.yt + '?autoplay=1&rel=0';
+    f.title = this.getAttribute('aria-label');
+    f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+    f.allowFullscreen = true;
+    box.replaceChildren(f);
+    f.focus();
+  }, { once: true });
+});
+</script>
 </body>
 </html>
