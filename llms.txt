@@ -2,20 +2,21 @@
 
 > Cool Snail is a free Android app (Android 8.0 or later) that pulls you out of Instagram Reels, YouTube Shorts, TikTok and the X video tab about a second after you open them, while messages, search, stories and videos friends send you keep working. It also counts your time on social media, sets daily and per-app limits and open hours, and shows a bubble with your time and posts seen over the feed. Made by Miriam, an independent developer in Spain.
 
-Cool Snail is a short-video blocker, not a whole-app blocker. Instead of closing Instagram or YouTube, it only takes you out of the endless vertical video feed. Install it from Google Play: https://play.google.com/store/apps/details?id=com.coolsnail.blockshortvideos (package com.coolsnail.blockshortvideos; Play listing name "Cool Snail: Block Apps & Reels").
+Cool Snail is a short-video blocker, not a whole-app blocker. Instead of closing Instagram or YouTube, it only takes you out of the endless vertical video feed. Install it from Google Play: https://play.google.com/store/apps/details?id=com.coolsnail.blockshortvideos (package com.coolsnail.blockshortvideos; Play listing title "Cool Snail: Block Reels Shorts"; category Productivity; version 1.0.29, published 6 September 2026, updated 30 September 2026).
 
 ## Key facts
 
 - Platform: Android 8.0 or later. No iPhone version.
 - Price: free forever, no trial, no account, no card. Optional PRO subscription (monthly or yearly; in Spain €3.49 a month or €34.99 a year; local prices in Google Play).
 - Pulls you out of: Instagram Reels, YouTube Shorts, TikTok's video feed, the X (Twitter) video tab, and short videos opened in Chrome (TikTok links, Instagram Reels, YouTube Shorts, Facebook Reels).
-- Friends get through: a Reel, Short or TikTok opened from a chat on WhatsApp, Telegram, Messenger or Signal plays, with a note "Sent by a friend. Go ahead." On Instagram, swiping to a reel from someone else ends the pass; leaving the video or switching apps ends it anywhere.
+- Friends get through: a Reel, Short or TikTok opened straight from a chat on WhatsApp, Telegram, Messenger, Signal or Instagram's own DMs plays, with a note "Sent by a friend. Go ahead." On Instagram, swiping to a reel from someone else ends the pass; leaving the video or switching apps ends it anywhere.
 - Limits: one daily limit for all social apps together, a limit per app, and open hours with a start and an end time (the same every day; outside them the social apps close; a window past midnight carries into the next morning).
 - Friction instead of a wall: on the free version, when you reach your daily limit or an app's limit, one ad buys 5 more minutes counted from that moment. Open hours can't be extended. Every ad watched is counted in your statistics.
-- Counts: time and opens on Instagram, YouTube, TikTok, X, Reddit, Facebook and LinkedIn; posts seen on Instagram, YouTube, X and Reddit. A page break every 20 posts on Reddit and X.
+- Counts: time and opens on Instagram, YouTube, TikTok, X, Reddit, Facebook and LinkedIn; posts seen on Instagram, YouTube, X and Reddit (not TikTok). On Reddit and X, every 20 posts the feed pauses for 3 seconds. In the Instagram feed, a check-in after 3 Reels.
 - Bubble: a floating pill over the feed with today's time in that app, the total for all apps, and posts seen.
-- PRO: fixes your limits, open hours and switches for 30 days so you can't loosen them, removes the ad extension, and unlocks full statistics (last 7 and 30 days, this week against the last one, the hour you lose most).
-- Privacy: statistics stay on the phone. No sign-up. Uses Android's Accessibility service only inside the social apps it supports, to detect short videos and count time. Privacy policy: https://mbrmiriam.github.io/coolsnail-privacy/
+- PRO: unlocks full statistics (last 7 and 30 days, this week against the last one, the hour you lose most), removes the ad extension, and offers an optional 30-day commitment: once the user confirms it, limits, open hours and switches are fixed for 30 days. Buying PRO does not switch the commitment on by itself.
+- Privacy: social media activity, time, posts seen and statistics are processed and stored only on the phone and deleted on uninstall. No sign-up. The Accessibility service is used only inside the supported social apps, to detect short videos and count time. Purchases go through Google Play and RevenueCat; the free plan's optional ad is served by Google AdMob; the optional gifting waitlist email goes to OneSignal. Privacy policy: https://mbrmiriam.github.io/coolsnail-privacy/
+- Limitations: detection depends on how Instagram, YouTube and TikTok are built, so a redesign of those apps can break it until Cool Snail is updated (TikTok's September 2026 redesign was fixed within days). Android only.
 - Phones that kill background services (Xiaomi, Redmi, POCO, Samsung): set Cool Snail's battery use to Unrestricted, allow Autostart, and turn it back on in Accessibility settings.
 
 ## Links
