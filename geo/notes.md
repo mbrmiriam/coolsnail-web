@@ -12,3 +12,14 @@
 **Hueco detectado:** no había ninguna página comparativa ("best apps…", "alternatives to…"), que es el formato que más citan los asistentes. Cubierto hoy con la guía EN/ES. Siguiente hueco: Cool Snail no tiene menciones de terceros (prensa tech, listados). Borrador en `geo/outreach.md`.
 
 **Pendiente técnico:** `build_blog.py` usa una sola `DATE` para todos los posts; al publicar el próximo, cambiará también la fecha de los antiguos. Conviene una fecha por post.
+
+### Primera medición (2026-10-12, lanzada por Miriam en su Mac)
+
+Cool Snail **no aparece en ninguna de las 12 respuestas** (ChatGPT `gpt-6.1-sol`, Gemini `gemini-3.8-flash`, Claude `sonnet-5.5`, todos con `:online`). Es la línea base: la guía comparativa se publicó el mismo día.
+
+Qué recomiendan en su lugar:
+- **Bloquear Reels/Shorts en Android:** NoScroll domina (ChatGPT lo llama su "default pick" y cita "1M+ downloads"; también Gemini y Claude). Detrás: ScrollGuard, Switchly, Shortstop, Mindful Guard (Reel Guard), WallHabit, StayFree, y bloqueadores open source de GitHub.
+- **Doomscrolling sin borrar las redes:** ScreenZen y one sec (los tres), luego Opal, Freedom, Forest, BeTimeful.
+- **Alternativas a AppBlock:** Freedom, Opal, ScreenZen, one sec, Cold Turkey, Forest, StayFree.
+
+Lectura: en vídeos cortos, la competencia directa en las respuestas es **NoScroll**, no AppBlock ni Opal. Ganan por número de descargas y por guías propias indexadas. Próximo contenido con más hueco: una página tipo "NoScroll alternative" / "Cool Snail vs NoScroll", honesta y con fuentes, y una guía "block TikTok on Android without deleting it".
