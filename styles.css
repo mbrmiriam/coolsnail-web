@@ -85,12 +85,25 @@ td.n{color:var(--muted)}
 .plan li{display:grid;grid-template-columns:22px 1fr;gap:10px;font-size:16.5px}
 .plan li::before{content:"✓";font-weight:700}
 .plan.free li::before{color:var(--on)}
-.plan.pro li span{color:rgba(26,18,8,.68);display:block;font-size:15px}
+.plan li > span{grid-column:2}
+.plan.pro li{font-weight:500}
+.plan.pro li span{color:rgba(26,18,8,.68);display:block;font-size:15px;font-weight:400;margin-top:2px}
 .plan .foot{margin-top:20px;font-size:14px}
 .plan.free .foot{color:var(--muted)}
 .plan.pro .foot{color:rgba(26,18,8,.68)}
 
 .kicker{font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--on);font-weight:600;display:block;margin:0 0 12px}
+
+/* Las cuatro herramientas: el mismo cuadrante de dos por dos que la pantalla principal de la app. */
+.tools{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.tool{background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:26px;min-width:0;display:flex;flex-direction:column}
+.tool-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}
+.tool-ico{width:46px;height:46px;border-radius:15px;background:var(--surface-high);color:var(--on);display:grid;place-items:center;flex:none}
+.tool-ico svg{width:24px;height:24px}
+.tool-name{font-size:13px;color:var(--muted);text-align:right}
+.tool h3{font-size:clamp(22px,2.6vw,26px);font-weight:700;letter-spacing:-.02em;line-height:1.15;margin:0 0 10px}
+.tool p{margin:0 0 12px;font-size:16px}
+.tool .fine{color:var(--muted);font-size:15px;margin:auto 0 0;padding-top:12px;border-top:1px solid var(--line)}
 
 .details{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .details article{background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:26px;min-width:0;display:flex;flex-direction:column}
@@ -128,7 +141,7 @@ footer a{color:var(--muted)}
   .hero,.plans{grid-template-columns:1fr}
   .hero{gap:8px;padding-block:8px 40px}
   .snail{order:-1;max-width:420px}
-  .how,.steps,.details{grid-template-columns:1fr}
+  .how,.steps,.details,.tools{grid-template-columns:1fr}
   .gallery{grid-template-columns:1fr 1fr}
   .gallery figure:last-child{display:none}
   .glance dl{grid-template-columns:1fr;gap:2px}

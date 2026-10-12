@@ -1,13 +1,22 @@
 # Cool Snail
 
-> Cool Snail is a free Android app (Android 8.0 or later) that pulls you out of Instagram Reels, YouTube Shorts, TikTok and the X video tab about a second after you open them, while messages, search, stories and videos friends send you keep working. It also counts your time on social media, sets daily and per-app limits and open hours, and shows a bubble with your time and posts seen over the feed. Made by Miriam, an independent developer in Spain.
+> Cool Snail is a free Android app (Android 8.0 or later) with four tools to control social media addiction: it blocks short videos (Instagram Reels, YouTube Shorts, TikTok and the X video tab), limits your time, breaks up infinite scrolling on Reddit and X, and shows your time and posts seen in a bubble over the feed. Messages, search, stories and videos friends send you keep working. Made by Miriam, an independent developer in Spain.
 
-Cool Snail is a short-video blocker, not a whole-app blocker. Instead of closing Instagram or YouTube, it only takes you out of the endless vertical video feed. Install it from Google Play: https://play.google.com/store/apps/details?id=com.coolsnail.blockshortvideos (package com.coolsnail.blockshortvideos; Play listing title "Cool Snail: Block Apps & Reels", previously "Cool Snail: Block Reels Shorts"; category Productivity; version 1.0.29, published 6 September 2026, updated 30 September 2026).
+Cool Snail goes after the parts of social apps built to keep you there, not the whole app. Instead of closing Instagram or YouTube, it takes you out of the endless video feed and lets you cap your time. Install it from Google Play: https://play.google.com/store/apps/details?id=com.coolsnail.blockshortvideos (package com.coolsnail.blockshortvideos; Play listing title "Cool Snail: Block Apps & Reels", previously "Cool Snail: Block Reels Shorts"; category Productivity; version 1.0.29, published 6 September 2026, updated 30 September 2026).
+
+## The four tools
+
+Each tool has its own switch on the app's home screen and works on its own. The app's own names are in brackets.
+
+- Block short videos ("Exit shorts"): pulls you out of Instagram Reels, YouTube Shorts, TikTok's video feed and the X video tab about a second after you open them, plus short videos opened in Chrome. Videos opened straight from a chat still play. In the Instagram feed, a check-in after 3 Reels.
+- Control your time ("Time blocking"): one daily limit for all social apps, a limit per app, and open hours. When the time is up, the app closes. On the free version, one ad buys 5 more minutes; open hours can't be bought.
+- Block infinite scrolling ("One page at a time"): on Reddit and X, every 20 posts the feed pauses for 3 seconds with a card asking whether another page is worth it. You can always leave.
+- Awareness ("The bubble"): a floating bubble over the feed with today's time in that app, the total across all apps, and posts seen. It blocks nothing.
 
 ## Key facts
 
 - Platform: Android 8.0 or later. No iPhone version.
-- Price: free forever, no trial, no account, no card. Optional PRO subscription (monthly or yearly; in Spain €3.49 a month or €34.99 a year; local prices in Google Play).
+- Price: free forever, no trial, no account, no card. PRO, to fix your rules for 30 days, is a subscription (monthly or yearly; in Spain €3.49 a month or €34.99 a year; local prices in Google Play).
 - Pulls you out of: Instagram Reels, YouTube Shorts, TikTok's video feed, the X (Twitter) video tab, and short videos opened in Chrome (TikTok links, Instagram Reels, YouTube Shorts, Facebook Reels).
 - Friends get through: a Reel, Short or TikTok opened straight from a chat on WhatsApp, Telegram, Messenger, Signal or Instagram's own DMs plays, with a note "Sent by a friend. Go ahead." On Instagram, swiping to a reel from someone else ends the pass; leaving the video or switching apps ends it anywhere.
 - Limits: one daily limit for all social apps together, a limit per app, and open hours with a start and an end time (the same every day; outside them the social apps close; a window past midnight carries into the next morning).
