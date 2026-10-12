@@ -23,3 +23,8 @@ Qué recomiendan en su lugar:
 - **Alternativas a AppBlock:** Freedom, Opal, ScreenZen, one sec, Cold Turkey, Forest, StayFree.
 
 Lectura: en vídeos cortos, la competencia directa en las respuestas es **NoScroll**, no AppBlock ni Opal. Ganan por número de descargas y por guías propias indexadas. Próximo contenido con más hueco: una página tipo "NoScroll alternative" / "Cool Snail vs NoScroll", honesta y con fuentes, y una guía "block TikTok on Android without deleting it".
+
+## Pendiente (para más adelante)
+
+- **`geo/` y `tools/` se publican en la web** (hay `.nojekyll`, así que GitHub Pages sirve todo el repo): coolsnail.app/geo/notes.md y /geo/outreach.md son públicos. A Miriam le da igual por ahora (12 oct 2026); más adelante, moverlos a un sitio que no se publique.
+- `build_blog.py` usa una sola `DATE` para todos los posts: poner una fecha por post antes del próximo.
