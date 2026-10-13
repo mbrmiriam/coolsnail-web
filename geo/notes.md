@@ -46,3 +46,15 @@ Miriam fija un tope de **1,50 € al mes**. La primera medición, con GPT-6.1 So
 - **Publicar despacio** para que Google no lo trate como contenido generado en masa: como mucho una pareja EN+ES cada 2-3 días. Cada post lleva ya su propia `date` en `posts_content.py`.
 - La guía "How to spend less time on social media without quitting" / "Cómo pasar menos tiempo en redes sociales sin dejarlas" está escrita y espera en `drafts/` (carpeta local, fuera de git) para publicarse el **14 oct**.
 - **Medición semanal**, primero gratis desde Chrome (chat temporal/incógnito en ChatGPT, Gemini y Claude) con `geo_check.py --record`; la API de OpenRouter sólo como respaldo, con el tope de 1,50 $/mes. Con modelos buenos, la API sólo da para ~2 mediciones al mes.
+
+## 2026-10-13
+
+**Medición:** no toca (la última es del 12 oct; semanal). **Publicación:** no toca (último post el 12 oct; el borrador "spend less time" sale el 14 oct).
+
+**Hallazgos (búsqueda web):**
+- AlternativeTo tiene una página "NoScroll alternatives" con Mindful (open source), DigiPaws, ScrollGuard, ReDD Focus y Freedom. **Cool Snail no está en AlternativeTo.** Es un listado que los LLM leen y que da una mención de terceros gratis. Texto preparado en `outreach.md`.
+- NoScroll (curizic.com) sigue posicionando con guías propias con año en el título ("[2025] How to disable YouTube Shorts…").
+- "Block TikTok on Android without deleting it": los resultados son guías genéricas (techlockdown, parental control, granjas de spam). Ninguna explica qué deja abierto cada método (vídeos de amigos, fácil de deshacer). Hueco claro.
+- En el espacio de navegador, extensiones de Firefox para Android (Shortless, Block It Out) quitan Shorts/Reels en la web, no en las apps.
+
+**Hecho:** borrador EN+ES "How to block TikTok on Android without deleting it" / "Cómo bloquear TikTok en Android sin borrarlo" en `drafts/`, previsto para el **16 oct**. Siguiente idea: "NoScroll alternative" honesta (pendiente de fuentes sobre NoScroll más allá de su propio blog).
