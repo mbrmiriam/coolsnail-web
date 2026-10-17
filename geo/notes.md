@@ -71,3 +71,13 @@ Miriam fija un tope de **1,50 € al mes**. La primera medición, con GPT-6.1 So
 - ScrollFree tiene ficha en Capterra (sin valoraciones). Capterra/AlternativeTo dan menciones de terceros con poco esfuerzo.
 
 **Hueco detectado:** las respuestas en español beben de muy pocas fuentes (F-Droid, una reseña de 2024, un blog propio). Una guía en español bien hecha sobre "dejar de hacer scroll" tiene sitio. Para listados: AlternativeTo (texto ya en `outreach.md`) y, como siguiente, una ficha en Capterra/GetApp; anotado para que lo valore Miriam.
+
+## 2026-10-17 (segunda pasada)
+
+**Medición:** no toca (próxima el 19 oct o después). **Publicación:** no toca (pareja publicada hoy; el borrador de TikTok sigue para el **20 oct**, sin enlaces externos que revisar).
+
+**Hallazgos (búsqueda web):**
+- La página de AlternativeTo "ScreenZen alternatives" pone arriba Mindful (open source) y DigiPaws (F-Droid) como opciones Android; Freedom detrás. Es la misma familia de nombres que en "NoScroll alternatives": en Android, AlternativeTo lo ocupan sobre todo apps open source.
+- En español, "bloquear Shorts de YouTube en Android sin borrar YouTube" devuelve tutoriales generales (Androidphoria, Stands, Make Tech Easier citando una app "No Shorts", TechLockdown con DNS). Ninguno compara métodos con lo que deja abierto cada uno; nuestra guía ES de Shorts ya cubre eso, así que no hace falta otra.
+
+**Hueco detectado:** cuando Miriam dé de alta Cool Snail en AlternativeTo, conviene marcarla como alternativa a **ScreenZen** además de a NoScroll y AppBlock (añadido en `outreach.md`).

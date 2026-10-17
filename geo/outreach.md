@@ -23,3 +23,5 @@ Añadirla como alternativa a NoScroll, ScrollGuard, AppBlock y one sec.
 - Description: Cool Snail has four tools, each with its own switch: block short videos (Reels, Shorts, TikTok's feed, X video tab, and short-video links in Chrome), time limits (one daily limit for all social apps, per-app limits and open hours), one page at a time (Reddit and X pause every 20 posts), and a bubble over the feed with today's time and posts seen. No account; activity stays on the phone. Optional PRO fixes your rules for 30 days.
 - Tags: digital-wellbeing, screen-time, block-youtube-shorts, block-reels, doomscrolling
 - Web: https://coolsnail.app/ · Google Play: https://play.google.com/store/apps/details?id=com.coolsnail.blockshortvideos
+
+**Añadido 17 oct:** al crear la ficha de AlternativeTo, marcar Cool Snail también como alternativa a **ScreenZen** (su página de alternativas lista sobre todo apps Android open source, y Cool Snail encaja ahí como gratuita para Android).
