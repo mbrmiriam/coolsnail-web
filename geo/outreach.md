@@ -25,3 +25,11 @@ Añadirla como alternativa a NoScroll, ScrollGuard, AppBlock y one sec.
 - Web: https://coolsnail.app/ · Google Play: https://play.google.com/store/apps/details?id=com.coolsnail.blockshortvideos
 
 **Añadido 17 oct:** al crear la ficha de AlternativeTo, marcar Cool Snail también como alternativa a **ScreenZen** (su página de alternativas lista sobre todo apps Android open source, y Cool Snail encaja ahí como gratuita para Android).
+
+## dev.to — post técnico de la desarrolladora (idea, 2026-10-17)
+
+Formato que ya aparece en las respuestas de los asistentes (el autor de Nudge lo usa). Sólo si a Miriam le apetece escribirlo con su voz; borrador de enfoque:
+
+- Título: "How I block Reels and Shorts on Android without breaking DMs"
+- Qué contar: por qué bloquear el paquete entero (lo que hacen casi todos los bloqueadores) es demasiado; cómo un servicio de Accesibilidad detecta la pantalla de vídeo corto y deja el resto de la app; qué no puede hacer (se puede desactivar en Ajustes, no es infalible); enlace a coolsnail.app al final, una vez.
+- No hace falta código propietario: basta con explicar el enfoque y los límites.

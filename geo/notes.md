@@ -81,3 +81,15 @@ Miriam fija un tope de **1,50 € al mes**. La primera medición, con GPT-6.1 So
 - En español, "bloquear Shorts de YouTube en Android sin borrar YouTube" devuelve tutoriales generales (Androidphoria, Stands, Make Tech Easier citando una app "No Shorts", TechLockdown con DNS). Ninguno compara métodos con lo que deja abierto cada uno; nuestra guía ES de Shorts ya cubre eso, así que no hace falta otra.
 
 **Hueco detectado:** cuando Miriam dé de alta Cool Snail en AlternativeTo, conviene marcarla como alternativa a **ScreenZen** además de a NoScroll y AppBlock (añadido en `outreach.md`).
+
+## 2026-10-17 (tercera pasada)
+
+**Medición:** no toca (próxima el 19 oct o después). **Publicación:** no toca (pareja publicada hoy; el borrador de TikTok sigue para el **20 oct**).
+
+**Hallazgos (búsqueda web):**
+- "Opal alternative Android" es una keyword con páginas hechas a propósito: habitdoom.com tiene "Opal Alternative for Android (2026)" y "Opal Alternatives: 7 App Blockers Worth It (2026)", getdull.app tiene "Opal Alternative · April 2026" (empujando UNDOOMED, su versión con Android) y en dev.to hay un post "Free Opal alternative for Android" del desarrollador de **Nudge**. Los buscadores con IA resumen esas páginas casi tal cual (Nudge sale como "most direct match" aunque la fuente es su propio autor).
+- dev.to funciona como canal: el mismo autor tiene "Block YouTube Shorts and Reels on Android, keep the app", y aparece para búsquedas de "bloquear Reels pero mantener los DMs". Ojo: one sec y AppBlock (desde la 7.5.0, con Accesibilidad) también tienen ya páginas de ayuda sobre bloquear Reels/Shorts dentro de la app.
+- Para Reddit + Instagram en navegador sale la extensión de Firefox **noalgo** (bloquea feed, Explore y Reels; deja DMs).
+- Hay varias páginas spam ("8+ Best Opal Alternative Apps for Android in 2024") en dominios secuestrados; ruido, no competencia.
+
+**Hueco detectado:** Cool Snail no tiene página para "Opal alternative for Android", y la competencia sí (tres sitios). Encaja como post futuro honesto: Opal en Android es de pago y más limitado que en iPhone (verificar en su ficha de Play antes de afirmarlo), y Cool Snail bloquea sólo el vídeo corto, gratis. Va detrás del borrador de TikTok (20 oct), así que no antes del 22-23 oct. Idea de outreach para Miriam: un post en dev.to contado como desarrolladora ("cómo bloqueo Reels con Accesibilidad sin romper los DMs"), que es el formato que ya está saliendo en las respuestas; anotado en `outreach.md`.
