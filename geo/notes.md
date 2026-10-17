@@ -58,3 +58,16 @@ Miriam fija un tope de **1,50 € al mes**. La primera medición, con GPT-6.1 So
 - En el espacio de navegador, extensiones de Firefox para Android (Shortless, Block It Out) quitan Shorts/Reels en la web, no en las apps.
 
 **Hecho:** borrador EN+ES "How to block TikTok on Android without deleting it" / "Cómo bloquear TikTok en Android sin borrarlo" en `drafts/`, previsto para el **16 oct**. Siguiente idea: "NoScroll alternative" honesta (pendiente de fuentes sobre NoScroll más allá de su propio blog).
+
+## 2026-10-17
+
+**Medición:** no toca (la última es del 12 oct; la próxima, el 19 oct o después). Ojo al comparar: el 12 oct se midió con las 4 preguntas viejas; desde entonces `QUERIES` tiene 2 de búsqueda de app y 2 conversacionales, así que la próxima medición es en la práctica una nueva línea base para las conversacionales.
+
+**Publicado:** "How to spend less time on social media without quitting" / "Cómo pasar menos tiempo en redes sociales sin dejarlas" (iba para el 14 oct; la tarea no corrió el 14-16). El borrador de TikTok pasa al **20 oct** para mantener 2-3 días entre parejas.
+
+**Hallazgos (búsqueda web):**
+- No hay reseñas independientes de NoScroll en 2026: lo que indexa es su propio blog (curizic.com, guías con "[2025]" en el título y un post de "NoScroll 2.0") y un Product Hunt casi vacío. Su peso en las respuestas sale de su contenido propio y de las descargas en Play, no de prensa.
+- En español, para "app para dejar de hacer scroll en Reels/TikTok", salen AwayDoomscrollin' (open source, en F-Droid), Sane Scrolling (reseña de Android Authority de nov. 2024) y NoScroll. F-Droid aparece mucho: es un listado que los LLM leen.
+- ScrollFree tiene ficha en Capterra (sin valoraciones). Capterra/AlternativeTo dan menciones de terceros con poco esfuerzo.
+
+**Hueco detectado:** las respuestas en español beben de muy pocas fuentes (F-Droid, una reseña de 2024, un blog propio). Una guía en español bien hecha sobre "dejar de hacer scroll" tiene sitio. Para listados: AlternativeTo (texto ya en `outreach.md`) y, como siguiente, una ficha en Capterra/GetApp; anotado para que lo valore Miriam.
